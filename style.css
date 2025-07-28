@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.top {
+    background-color: rgb(58, 58, 58);
+    color: white;
+    height: 20vh;
+    text-align: center;
+}
+
+.top p {
+    line-height: 20vh;
+}
+
+ul {
+    width: 100%;
+    list-style-type: none;
+    background: radial-gradient(circle, aqua, blue);
+    text-align: center;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+}
+
+li {
+    color: white;
+    line-height: 10vh;
+    display: inline-block;
+    margin: 0 20px;
+    padding: 0 7px;
+}
+
+li:hover {
+    background-color: orange;
+}
+
+.para {
+    padding: 30px 20px;
+}
+
+.para::selection {
+    background-color: red;
+    color: white;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+}
+
+.icon:hover {
+    background-color: orange;
+}
+
+.icon span {
+    color: white;
+    line-height: 50px;
+}
